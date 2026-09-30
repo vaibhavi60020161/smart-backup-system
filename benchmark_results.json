@@ -1,0 +1,56 @@
+{
+  "index": {
+    "hash": {
+      "build_s": 0.38,
+      "memory_mb": 44.5,
+      "lookup_p50_us": 0.46,
+      "lookup_p95_us": 0.821,
+      "avl_height": null
+    },
+    "avl": {
+      "build_s": 5.05,
+      "memory_mb": 51.2,
+      "lookup_p50_us": 2.009,
+      "lookup_p95_us": 3.082,
+      "avl_height": 21
+    }
+  },
+  "latency_10mb_ms": {
+    "fixed": {
+      "runs": 7,
+      "p50": 125.904,
+      "p95": 128.709
+    },
+    "content": {
+      "runs": 3,
+      "p50": 1807.425,
+      "p95": 1819.483
+    }
+  },
+  "dedup_ratio": {
+    "fixed": {
+      "identical": 1.0,
+      "edit_in_middle": 0.998,
+      "insert_at_start": 0.0,
+      "fully_unique": 0.0
+    },
+    "content": {
+      "identical": 1.0,
+      "edit_in_middle": 0.996,
+      "insert_at_start": 0.9975,
+      "fully_unique": 0.0
+    }
+  },
+  "cache": {
+    "hits": 10240,
+    "misses": 2560,
+    "hit_rate": 0.8,
+    "size": 2560,
+    "capacity": 50000,
+    "invalidate_all_ms": 0.047
+  },
+  "verify_ms": {
+    "merkle": 50.009,
+    "checksum": 46.726
+  }
+}
